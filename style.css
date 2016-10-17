@@ -5,6 +5,16 @@
 	justify-content: left;
 	align-items: left;
 
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('webfonts/31AA80_9_0.eot');
+	src: url('webfonts/31AA80_9_0.eot?#iefix') format('embedded-opentype'),
+	url('webfonts/31AA80_9_0.woff2') format('woff2'),
+	url('webfonts/31AA80_9_0.woff') format('woff'),
+	url('webfonts/31AA80_9_0.ttf') format('truetype');
+}
+
 	html, body, h1, h2, h3, p, ol, ul, li, a {
 		font-family: Gilroy-Medium;
 		font-weight: normal;
