@@ -7,7 +7,7 @@
 }
 
 	html, body, h1, h2, h3, p, ol, ul, li, a {
-		font-family: Gilroy-Medium;
+		font-family: Gilroy-Medium, sans;
 		font-weight: normal;
 		font-style: normal;
 		padding: 0;
