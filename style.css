@@ -1,31 +1,17 @@
-.content {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: left;
-	align-items: left;
-}
-
-.primary-content, 
-.secondary-content {
-  width: 75%;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 80px;
-  margin: auto;
-  max-width: 900px;
- }
-
-html, body, h1, h2, h3, p, ol, ul, li, a {
-	font-family: 'Gilroy-Medium', Helvetica, Arial, Sans-Serif;
-	color: #56BD81;
-	font-size: 24px;
-	line-height: 32px;
-	font-weight: normal;
-	font-style: normal;
-	padding: 0;
-	border: 0;
-	margin: 0;
-}
-
-/* Layout Styles ------------------ */
+/* Font Family */
+.ff-gilroy { font-family: 'Gilroy-Medium', sans-serif, helvetica; }
+/* Font Weight */
+.fw-light { font-weight: 300; }
+.fw-regular { font-weight: 400; }
+/* Font Size */
+.fs-0_75r { font-size: 0.75rem; }
+.fs-1r { font-size: 1rem; }
+/* Line Height */
+.lh-1_75 { line-height: 1.75; }
+/* Color */
+.c-black { color: #000000; }
+.c-gray { color: #828282; }
+.seafoam {color: #22FFAC; }
+.lighter-gray {color: #ACACAC; }
+.bg-seafoam { background-color: #22FFAC; }
+.bg-off-white { background-color: #FEFEFE; }
